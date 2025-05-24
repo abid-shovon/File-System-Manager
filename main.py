@@ -105,6 +105,7 @@ def check_file():
     else:
         print("File not found in current directory")
 
+
 def exit_programe():
     print("Exiting program. Goodbye!")
     sys.exit()
