@@ -3,6 +3,7 @@ import sys
 
 def check_current_dicrectory():
     print("Current directory is:", os.getcwd())
+
     
 def show_files():
     all_files = os.listdir()
