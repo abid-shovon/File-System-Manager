@@ -10,12 +10,14 @@ def show_files():
     for files in all_files:
         print(files)
 
+
 def create_single_folder():
     try:
         folder_name = input("Enter the folder name: ")
         os.mkdir(folder_name)
     except Exception as e:
         print("SomeThing is wrong", e)
+ 
     
 def create_nested_folders():
     root_folder_name = input("Enter the Root file-name: ")
