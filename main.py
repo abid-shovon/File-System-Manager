@@ -63,6 +63,7 @@ def rename_folder_or_file_name():
     else:
         print("File not found.")
 
+
 def remove_single_folder():
     show_files()
     try:
@@ -79,6 +80,7 @@ def remove_single_folder():
     except ValueError as e:
         print("SomeTing is wrong.", e)
 
+
 def remove_file():
     show_files()
     try:
@@ -94,6 +96,7 @@ def remove_file():
                 print("Cancel the deleting process.")
     except ValueError as e:
         print("SomeTing is wrong.", e)
+
 
 def check_file():
     choice = input("Write the filename: ")
